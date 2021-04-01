@@ -47,7 +47,7 @@ int main(){
         ok=0;
         nfa(cuv,0,si);
         if(ok==1){
-            fout<<"DA"<<'\n';
+            fout<<"DA"<<'\n'<<"Traseu: ";
             for(int i=0;i<r.size();i++)
                 fout<<r[i]<<" ";
             fout<<'\n';
